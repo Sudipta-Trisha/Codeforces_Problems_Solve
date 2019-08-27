@@ -6,8 +6,7 @@ void reg()
      int n;
     cin>>n;
     map<string,int>m;
-    map<string,int>::iterator it;
-
+     
     for(int i=1; i<=n ;i++)
     {
         string s;
