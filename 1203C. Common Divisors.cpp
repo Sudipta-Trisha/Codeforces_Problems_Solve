@@ -20,8 +20,8 @@ int main()
         if(g%i==0){
             cnt++;
             if(i!=(g/i)){
-				cnt++;
-			}
+	       cnt++;
+	    }
         }
     }
     cout<<cnt<<endl;
