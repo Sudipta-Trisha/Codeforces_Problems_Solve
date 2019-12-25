@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int test;
+    cin>>test;
+    while(test--){
+        int a,b,c,r;
+        cin>>a>>b>>c>>r;
+        
+        int left = c-r;
+        int right = c+r;
+        
+        int L = max(left,min(a,b));
+        int R = min(right,max(a,b));
+        
+        int ans = (abs(a-b))-max(0,(R-L));
+        
+        cout<<ans<<endl;
+    }
+    return 0;
+}
