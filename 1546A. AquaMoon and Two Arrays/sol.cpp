@@ -1,6 +1,6 @@
 
 /**
- *    author        : Saurav Paul 
+ *    author        : Sudipta Banik Trisha
  *    created       : 01/09/2021 23:07:04
  *    Problem Name  : A. AquaMoon and Two Arrays
  *    Problem Limit : 1000 ms , 256 MB
